@@ -1,0 +1,213 @@
+/*
+Geff Freire
+Date Created: November 1, 2021
+File: mystyle_Experience.css
+*/
+body {
+  background-color: lightgrey;
+  align-content: center;
+}
+.header h1 {
+  font-style: italic;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* display: inline-block; */
+  float: left;
+  padding-bottom: 160px;
+  padding-top: 10px;
+  padding-inline-end: 300px;
+  margin: 0;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar li {
+  float: left;
+  list-style-type: none;
+}
+.navbar li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+  border-color: lime;
+  font-style: italic;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.navbar li a:hover {
+  background-color: lime;
+  color: white;
+}
+.navbar .active {
+  background-color: aqua;
+}
+
+/*Experience Dropdown*/
+.navbar li.dropdown {
+  display: inline-block;
+  background-color: aqua;
+}
+.navbar .dropstuff {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.navbar .dropstuff a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.navbar .dropstuff a:hover {
+  background-color: blue;
+  color: white;
+}
+
+.navbar .dropdown:hover .dropstuff {
+  display: block;
+}
+/* END OF NAVBAR */
+table{
+  border-spacing: 0;
+  font-size: 0;
+}
+
+
+td {
+  padding: 0px;
+  /* font-size: 0px; */
+  max-width: 0px;
+  /* margin: 0%; */
+  /* display: block; */
+  font-size: 0;
+}
+.Block1A, .Block1B {
+  max-width: 500px;
+  /* display: inline-block; */
+  margin: 0%;
+  vertical-align: top;
+  /* padding: 0px; */
+  text-align: left;
+  font-size: 14px;
+ 
+
+}
+.Block1A h2, .Block1B h2 {
+  padding: 0px;
+  /* margin: 0px; */
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  display: flex;
+  border-spacing: 0px;
+  max-width: 300px;
+}
+
+.TechEXP .WorkEXP ul{
+  margin: 0px;
+  padding: 0px;
+}
+/* TechEXP Section */
+
+.TechEXP p {
+  display: flex;
+  margin: 0%;
+  padding: 2px;
+  text-indent: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  
+}
+.TechEXP li a {
+  display: flex;
+  padding: 1px 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+/*WorkEXP Section*/
+
+
+.WorkEXP p {
+  /* display: flex; */
+  margin: 0%;
+  padding: 2px;
+  text-indent: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+}
+.WorkEXP li a {
+  display: flex;
+  padding: 1px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+/* END OF BLOCKS 1 & 2 */
+
+.Block1C {
+  max-width: 500px;
+  display: Block;
+  margin: 0%;
+  /* vertical-align: top; */
+  /* padding: 0px; */
+  text-align: left;
+  font-size: 14px;
+ 
+
+}
+.Block1C h2 {
+  padding: 0px;
+  /* margin: 0px; */
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  /* display: flex; */
+  border-spacing: 0px;
+  max-width: 600px;
+}
+/*LeaderEXP Section*/
+
+.LeaderEXP p {
+  /* display: flex; */
+  margin: 0%;
+  padding: 2px;
+  text-indent: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+}
+
+
+
+/* .LeaderEXP p2{
+  
+} */
+
+
+
+.LeaderEXP li a {
+  display: flex;
+  padding: 1px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
